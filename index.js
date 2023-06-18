@@ -12,7 +12,7 @@ dotenv.config({
     path: './config.env'
 });
 
-const port = process.env.PORT;
+const port =4000;
 
 app.use(bodyParser.json());
 //logger middleware
